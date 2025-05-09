@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="serversie-assignment5_jsp-jdbc-and-spring-mvc-Asantha20535">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java/com/university/controller"/>
+        <property name="context-root" value="serversie-assignment5_jsp-jdbc-and-spring-mvc-Asantha20535"/>
+        <property name="java-output-path" value="/serversie-assignment5_jsp-jdbc-and-spring-mvc-Asantha20535/bin"/>
+    </wb-module>
+</project-modules>

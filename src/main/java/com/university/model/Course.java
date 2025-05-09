@@ -6,7 +6,7 @@ public class Course {
     private String instructor;
     private int credits;
 
-    // Getters and Setters
+    
     public int getCourseId() { return courseId; }
     public void setCourseId(int courseId) { this.courseId = courseId; }
     public String getName() { return name; }

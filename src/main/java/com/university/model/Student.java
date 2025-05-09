@@ -6,7 +6,7 @@ public class Student {
     private String email;
     private String password;
 
-    // Getters and Setters
+  
     public int getStudentId() { return studentId; }
     public void setStudentId(int studentId) { this.studentId = studentId; }
     public String getName() { return name; }

@@ -34,7 +34,7 @@ public class CourseController{
             return "redirect:/login";
         }
 
-        // Optional: prevent duplicate registration
+        
         String checkSql = "SELECT COUNT(*) FROM registrations WHERE student_id = ? AND course_id = ?";
         int count = jdbcTemplate.queryForObject(checkSql, new Object[]{studentId, courseId}, Integer.class);
         if (count == 0) {
